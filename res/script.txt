@@ -1,0 +1,8 @@
+create 0 /Users/hzh-mac/Desktop/test/HW5/res/d.ppm
+create 1 /Users/hzh-mac/Desktop/test/HW5/res/checker.ppm
+blur 1
+invisible 1
+saveTop /Users/hzh-mac/Desktop/test.png
+saveAll /Users/hzh-mac/Desktop/
+load /Users/hzh-mac/Desktop/record.txt
+quit

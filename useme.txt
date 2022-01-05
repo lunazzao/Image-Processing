@@ -1,0 +1,38 @@
+# for use script, please change the path in script to your path
+0. The input type: 
+If want to get commands from existing file path and script file name.
+If want to manually type in the commands, press ENTER
+
+1. Create #(number) filePath
+Create a layer with an existing image in file, be sure it is followed by a correct path.
+
+2. Load filePath
+Load a bunch of pictures form an existing record.txt file.
+
+3. Image process commands:
+ - invisible #(number): invisible 0 twice would go back to normal image.
+ - sepia #(number)
+ - gray #(number)
+ - sharp #(number)
+ - blur #(number)
+
+4. Save... filePath
+ - saveAll filePath: To save all layers to the designated path, make sure to include'/' at the end.
+   Such as: saveAll /Users/zhaojiayue/Documents/
+ - saveTop: To only save the top layer to the designated path with file name,.
+   Such as: saveTop /Users/zhaojiayue/Documents/koala.jpg  
+
+5. quit
+ - end the command quit from this software.
+
+Example:
+
+create 0 /Users/hzh-mac/Desktop/test/HW5/res/d.ppm
+create 1 /Users/hzh-mac/Desktop/test/HW5/res/checker.ppm
+create 2 /Users/hzh-mac/Desktop/test/HW5/res/a.png
+blur 1
+invisible 2
+saveTop /Users/hzh-mac/Desktop/test.png
+saveAll /Users/hzh-mac/Desktop/
+load /Users/hzh-mac/Desktop/record.txt
+quit

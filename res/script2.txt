@@ -1,0 +1,5 @@
+create 0 /Users/hzh-mac/Desktop/test/HW6/res/HW5.png
+downscale 500 500
+mosaic 0 1000
+saveTop /Users/hzh-mac/Desktop/test.png
+quit
